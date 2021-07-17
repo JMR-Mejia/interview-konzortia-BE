@@ -1,0 +1,39 @@
+{
+  "name": "konzortia-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DEBUG=app:* ts-node-dev --respawn --pretty --transpile-only src/index.ts",
+    "debug": "DEBUG=express:*,app:* npm run start",
+    "build": "tsc -p .",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMR-Mejia/interview-konzortia-BE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMR-Mejia/interview-konzortia-BE/issues"
+  },
+  "homepage": "https://github.com/JMR-Mejia/interview-konzortia-BE#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/debug": "^4.1.6",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/helmet": "^4.0.0",
+    "@types/node": "^16.3.3",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}
