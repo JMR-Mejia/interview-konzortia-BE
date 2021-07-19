@@ -19,6 +19,11 @@ this will instal all dependencies for your execute.
 write your variable of environment.
 
 - **PORT**: the port where the server will run
+- **DB_USER**: the user of your database
+- **DB_PASSWORD**: the password of your database
+- **DB_HOST**: the host of your database
+- **DB_PORT**: the port of your database (if your host has SSL leave it empty)
+- **DB_NAME**: the name of your database
 
 After installing the dependencies run the server and set variables of environment:
 
