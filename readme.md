@@ -46,6 +46,10 @@ Start the server in development:
 $ npm run dev
 ```
 
+## Use
+
+To use the endpoints in a simple way you can download them from this [drive](https://drive.google.com/drive/folders/1cAX7UKDZepUoyUZynFR8jqdbU6--KRM4?usp=sharing) and import them into your postman.
+
 ## People
 
 The original author is [JMR-Mejia](https://github.com/JMR-Mejia)
